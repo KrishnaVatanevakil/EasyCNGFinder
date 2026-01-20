@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="/assets/images/Favicon.png" />
+    <link rel="icon" type="image/png" href="/assets/images/Favicon.png" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/searchbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>EasyCNGFinder</title>
+
+    <!-- Additional CSS Files -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">EASY<em> CNG </em>FINDER</a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="#top" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#features">NearBy CNG Stations</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#our-classes">Map Service</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#schedule">Today's CNG Price</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#contact-us">Book CNG Now</a>
+                </li>
+                <li class="main-button"><a href="#">Sign Up</a></li>
+              </ul>
+
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- -----------------Search-Bar-------------------- -->
+              <div class="search-input-wrapper">
+                <div class="search-input">
+                  <input
+                    class="ph"
+                    type="text"
+                    placeholder="Search by Name, City, Place"
+                    style="text-align: center"
+                  />
+                  <i class="fas fa-times"></i>
+                </div>
+              </div>
+              <div class="search-icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <!-- --------------------------------------------------  -->
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+      <video autoplay muted loop id="bg-video">
+        <source src="assets/images/bg-v-cng_station.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+        <div class="caption">
+          <h6>We Suggest Only Best CNG Stations, At Your Nearest Location</h6>
+          <h2>easy with our <em>Website Service</em></h2>
+          <div class="main-button scroll-to-section">
+            <a href="#features">Find Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- --------------------MAP_SERVICE------------------ -->
+
+    <!-- ________________________Map_Service___________________ -->
+
+    <!-- ***** Features Item Start ***** -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="section-heading">
+              <h2>Select <em>CNG Station</em></h2>
+              <img src="assets/images/line-dec.png" alt="waves" />
+              <p>
+                Superior to petrol, it operates at one-third the cost of
+                conventional fuel and is hence, increasingly becoming popular
+                with automobile owners.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <ul class="features-items">
+              <li class="feature-item">
+                <div class="left-icon">
+                  <img src="assets/images/cng_logo.jpg" alt="First One" />
+                </div>
+                <div class="right-content">
+                  <h4>Mantri petroleum And CNG PUMP LATUR</h4>
+                  <p>
+                    Name Mantri petroleum And CNG PUMP LATUR Address Latur,
+                    Maharashtra 413512 Contact Number 9860444065 Opening Hours
+                    Open 24 hours
+                  </p>
+                  <a href="#" class="text-button">See More on Map</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon">
+                  <img src="assets/images/cng_logo.jpg" alt="second one" />
+                </div>
+                <div class="right-content">
+                  <h4>SNEHSHREE ENTERPRISES /ASHOKA CNG GAS</h4>
+                  <p>Petrol Pump Plot No X, 9, Ausa - Latur Rd Open 24 hours</p>
+                  <a href="#" class="text-button">See More on Map</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon">
+                  <img
+                    src="assets/images/cng_logo.jpg"
+                    alt="third gym training"
+                  />
+                </div>
+                <div class="right-content">
+                  <h4>Ashoka Gas CNG Station</h4>
+                  <p>
+                    Name Ashoka Gas CNG Station Address Plot No A-3, A/1,
+                    Opposite, JK Files Rd, MIDC, Mirjole, Maharashtra 415639
+                    Contact Number 02352 228 238 Opening Hours Open 24 hours
+                  </p>
+                  <a href="#" class="text-button">See More on Map</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul class="features-items">
+              <li class="feature-item">
+                <div class="left-icon">
+                  <img src="assets/images/cng_logo.jpg" alt="fourth muscle" />
+                </div>
+                <div class="right-content">
+                  <h4>Ashoka Gas CNG Station</h4>
+                  <p>
+                    Name Ashoka Gas CNG Station Address Plot No A-3, A/1,
+                    Opposite, JK Files Rd, MIDC, Mirjole, Maharashtra 415639
+                    Contact Number 02352 228 238 Opening Hours Open 24 hours
+                  </p>
+                  <a href="#" class="text-button">See More on Map</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon">
+                  <img src="assets/images/cng_logo.jpg" alt="training fifth" />
+                </div>
+                <div class="right-content">
+                  <h4>CNG Station</h4>
+                  <p>
+                    INFO Adding ----------------------------------------------
+                  </p>
+                  <a href="#" class="text-button">See More on Map</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon">
+                  <img src="assets/images/cng_logo.jpg" alt="gym training" />
+                </div>
+                <div class="right-content">
+                  <h4>CNG Station Pune</h4>
+                  <p>
+                    Info will Adding
+                    ----------------------------------------------
+                  </p>
+                  <a href="#" class="text-button">See More on Map</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Features Item End ***** -->
+
+    <section class="section" id="our-classes">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="section-heading">
+              <h2>Map <em>Service</em></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="map1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d485563.9069745752!2d76.10174242037536!3d18.04987566495172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3bcf83c3007dfa5b%3A0x140f475bd9771cd0!2sPuranmal%20Lahoti%20Government%20Polytechnic%2C%209HV7%2BP49%2C%20MSH%203%2C%20Narayan%20Nagar%2C%20Latur%2C%20Maharashtra%20413531!3m2!1d18.3942859!2d76.5628613!4m5!1s0x3bc5e504038817e9%3A0x68347b7906210379!2sAshoka%20Gas%20CNG%20PNG%20office%2C%20Ausa-Barshi%20Ring%20Road%2C%20NH%20548B%2C%20Maharashtra%20413531!3m2!1d17.705827799999998!2d76.2691531!5e0!3m2!1sen!2sin!4v1654253327256!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="layer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="section-heading dark-bg">
+                <h2>Today <em>CNG</em> Price</h2>
+                <img src="assets/images/line-dec.png" alt="" />
+                <p>Today's CNG Price in Indian Metro Cities & State Capitals</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <div class="schedule-table filtering">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Dhule ▲</th>
+                      <th>Mumbai ▼</th>
+                      <th>Nashik ▲</th>
+                      <th>Navi Mumbai ▼</th>
+                      <th>Pimpri ▼</th>
+                      <th>Pune ▼</th>
+                      <th>Thane ▼</th>
+                    </tr>
+                    <tr>
+                      <td>₹ 67.90 (+4.40)</td>
+                      <td>₹ 58.00 (-8.00)</td>
+                      <td>₹ 67.90 (+4.40)</td>
+                      <td>₹ 58.00 (-8.00)</td>
+                      <td>₹ 62.20 (-3.80)</td>
+                      <td>₹ 62.20 (-3.80)</td>
+                      <td>₹ 62.20 (-3.80)</td>
+                    </tr>
+
+                    <tr>
+                      <th>Dhule ▲</th>
+                      <th>Mumbai ▼</th>
+                      <th>Nashik ▲</th>
+                      <th>Navi Mumbai ▼</th>
+                      <th>Pimpri ▼</th>
+                      <th>Pune ▼</th>
+                      <th>Thane ▼</th>
+                    </tr>
+                    <tr>
+                      <td>₹ 64.90 (+4.40)</td>
+                      <td>₹ 52.00 (-8.00)</td>
+                      <td>₹ 69.90 (+4.40)</td>
+                      <td>₹ 50.00 (-8.00)</td>
+                      <td>₹ 62.20 (-3.80)</td>
+                      <td>₹ 61.20 (-3.80)</td>
+                      <td>₹ 62.20 (-3.80)</td>
+                    </tr>
+
+                    <tr>
+                      <th>Dhule ▲</th>
+                      <th>Mumbai ▼</th>
+                      <th>Nashik ▲</th>
+                      <th>Navi Mumbai ▼</th>
+                      <th>Pimpri ▼</th>
+                      <th>Pune ▼</th>
+                      <th>Thane ▼</th>
+                    </tr>
+                    <tr>
+                      <td>₹ 60.90 (+4.40)</td>
+                      <td>₹ 55.00 (-8.00)</td>
+                      <td>₹ 68.90 (+4.40)</td>
+                      <td>₹ 51.00 (-8.00)</td>
+                      <td>₹ 62.20 (-3.80)</td>
+                      <td>₹ 60.20 (-3.80)</td>
+                      <td>₹ 68.20 (-3.80)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              Copyright &copy; 2022 Krishna Vatanevakil - Designed by
+              <a
+                rel="#"
+                href="+919767015532"
+                class="tm-text-link"
+                target="_parent"
+                >Krishna_Vatanevakil</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/mixitup.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/search_bar.js"></script>
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+    <script src="/assets/js/mapScript.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBS8Bk-Y2SZ7gJCgWDUvat7gT7Co56mzw&callback=initmap"
+    ></script>
+    <script>
+      function initMap() {
+        var location = { lat: 18.39611, lng: 76.556177 };
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          centre: location,
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+        });
+      }
+    </script>
+  </body>
+</html>
