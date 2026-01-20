@@ -52,5 +52,5 @@ _No backend or database is used in this version._
 BTech Computer Engineering Student  
 
 ## 📸 Demo
-![EasyCNGFinder Demo](demo/easycngfinder-demo.gif)
+![EasyCNGFinder Demo](demo/EasyCNGFinder-ezgif.com-resize.gif)
 
