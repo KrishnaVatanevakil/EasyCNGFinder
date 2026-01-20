@@ -50,3 +50,7 @@ _No backend or database is used in this version._
 ## 👨‍💻 Author
 **Krishna Vatanevakil**  
 BTech Computer Engineering Student  
+
+## 📸 Demo
+![EasyCNGFinder Demo](demo/easycngfinder-demo.gif)
+
